@@ -4,7 +4,7 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-// 문제 푼 날짜: 25.05.089
+// 문제 푼 날짜: 25.05.09
 // 문제 번호: BOJ 2753
 // 문제 제목: 윤년
 // 풀이 내용: 
