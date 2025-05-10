@@ -9,14 +9,13 @@ import java.io.InputStreamReader;
 // 문제 제목: 오븐 시계
 // 풀이 내용: 
 // (1) BufferedReader + InputStreamReader 클래스를 사용하여 입력값 받기.
-// (2) 첫번째 입력값은 공백 기준으로 나누어서 Strs[] strs에 저장.
+// (2) 첫번째 입력값은 공백 기준으로 나누어서 String[] strs에 저장.
 // (3) 두번째 입력값은 int C에 숫자로 형변환해서저장.
-// (4) 종료 시간에서 시와 분은 int타입으로, 
-//     시는 endA에 A값 저장하고 분은 endB에 B와 C를 더한 값을 저장.
-// (5) endB가 60분 보다 크면 endA에 endB/60의 값을 더해주고 저장.
-// (6) endB가 60분 보다 크면 endB에 endB-60의 값을 저장.
-// (7) endA가 24와 같으면 0의 값 저장. endB가 60과 같으면 0의 값 저장.
-// (8) endA와 endB 사이에 공백을 두고 출력.
+// (4) 전체 종료 시간을 분으로 환산한다.
+//     int totalMin을 만들어 A는 시라서 A * 60 해주고 나머지 B, C를 더해준다.
+// (5) endA는 totalMin / 60을 하고 난 몫에서 % 24를 해서 나머지 값을 저장한다.
+// (6) endB는 totalMin % 60을 하고 나머지를 저장한다.
+// (7) endA와 endB 사이에 공백을 두고 한 줄로 출력한다.
 public class BOJ2525_v1 {
   public static void main(String[] args) throws IOException {
     BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
