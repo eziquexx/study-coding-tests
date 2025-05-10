@@ -26,6 +26,8 @@ public class BOJ2525_v1 {
     int B = Integer.parseInt(strs[1]); // min
     int C = Integer.parseInt(br.readLine()); // cook min
 
+    br.close();
+
     int totalMin = (A * 60) + B + C;
 
     int endA = (totalMin / 60) % 24;
