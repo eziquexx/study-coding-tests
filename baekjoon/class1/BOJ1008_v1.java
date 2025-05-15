@@ -22,5 +22,7 @@ public class BOJ1008_v1 {
 
     // 출력
     System.out.println(sum);
+    
+    sc.close();
   }
 }
