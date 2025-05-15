@@ -17,5 +17,7 @@ public class BOJ18108_v1 {
     int CE = BE - 543;
 
     System.out.println(CE);
+
+    sc.close();
   }
 }
