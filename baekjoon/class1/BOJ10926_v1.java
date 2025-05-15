@@ -16,5 +16,7 @@ public class BOJ10926_v1 {
     String name = sc.nextLine();
 
     System.out.println(name + "??!");    
+
+    sc.close();
   }
 }
