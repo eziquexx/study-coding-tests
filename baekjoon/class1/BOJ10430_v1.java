@@ -26,5 +26,7 @@ public class BOJ10430_v1 {
     System.out.println(sum2);
     System.out.println(sum3);
     System.out.println(sum4);
+
+    sc.close();
   }
 }
