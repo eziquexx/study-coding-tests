@@ -17,7 +17,7 @@ public class BOJ10807_v5 {
     BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
     BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
 
-    int N = Integer.parseInt(br.readLine());
+    // int N = Integer.parseInt(br.readLine());
     String[] input = br.readLine().split(" ");
     int V = Integer.parseInt(br.readLine());
     int count = 0;
