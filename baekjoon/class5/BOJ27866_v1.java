@@ -20,5 +20,6 @@ public class BOJ27866_v1 {
     char[] letters = S.toCharArray(); // 
 
     System.out.println(letters[i-1]);
+    br.close();
   }
 }
