@@ -7,7 +7,7 @@ import java.io.InputStreamReader;
 // 문제 푼 날짜: 25.06.09
 // 문제 번호: BOJ 1546
 // 풀이 내용: 
-// (1) BufferedReader + InputStreamReader 클래스를 사용하여 입력값 받기.
+// (1) BufferedReader 클래스를 사용하여 입력값 받기.
 // (2) String[] input에 과목 점수 입력 받아서 공백 기준으로 나누어서 저장.
 // (3) double[] exam에 각 과목들을 배열로 저장.
 // (4) double max에 가장 큰 시험 과목 점수 구한 다음 값 저장.
