@@ -17,5 +17,6 @@ public class BOJ2743_v1 {
     String word = br.readLine();
 
     System.out.println(word.length());
+    br.close();
   }
 }
