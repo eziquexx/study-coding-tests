@@ -1,13 +1,23 @@
-# Coding Test Repository
-개인적으로 다양한 코딩 테스트 플랫폼에서 풀었던 문제들을 풀어서 기록을 하려고 올리는 곳입니다.
+# 🧠 Coding Test Repository
+> 다양한 코딩 테스트 플랫폼에서 개인적으로 문제를 풀고 기록하는 저장소입니다.  
 
-## 플랫폼 종류
-- **백준 (Baekjoon)**: [BaekJoon Online Judge 이동하기](https://www.acmicpc.net/)
-- **LeetCode**: [LeetCode 이동하기](https://leetcode.com/problemset/)
-- **프로그래머스 (Programmers)**: [Programmers 이동하기](https://school.programmers.co.kr/learn/challenges?order=recent)
-- **CodeUp**: [CodeUp 이동하기](https://codeup.kr/)
+---
 
-=> 위 플랫폼 중에서 백준에 올라온 코딩 테스트를 풀고 있습니다.
+## 🌐 사용 중인 플랫폼
+
+| 플랫폼           | 링크                                                                   |
+|------------------|------------------------------------------------------------------------|
+| 🐍 백준 (Baekjoon) | [Baekjoon Online Judge 바로가기](https://www.acmicpc.net/)             |
+| 🧩 LeetCode        | [LeetCode 문제집 바로가기](https://leetcode.com/problemset/)            |
+| 🚀 프로그래머스    | [Programmers 문제집 바로가기](https://school.programmers.co.kr/learn/challenges) |
+| 💡 CodeUp         | [CodeUp 문제집 바로가기](https://codeup.kr/)                            |
+
+📌 현재는 **백준 문제 풀이**에 집중하고 있으며, 다른 플랫폼도 추후 추가 예정입니다.
+
+---
 
 ## 폴더 구조
-- `baekjoon/`: 백준 문제 풀이
+- `baekjoon/`: 백준 문제 풀이 코드 모음
+  - class1~ 단계별로 폴더를 나누어 구분함
+  - BOJ + 번호별로 문제 파일을 구분함
+  - 각 문제에는 **문제 푼 날짜, 문제 번호, 풀이 설명**을 함께 기록함
