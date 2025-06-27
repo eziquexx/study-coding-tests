@@ -1,5 +1,6 @@
 # 🧠 Coding Test Repository
-> 다양한 코딩 테스트 플랫폼에서 개인적으로 문제를 풀고 기록하는 저장소입니다.  
+> 다양한 코딩 테스트 플랫폼에서 개인적으로 문제를 풀고 기록하는 저장소입니다.<br>
+> <b><i>Tistory 블로그에 기록하고 있습니다.</i></b> 👉 [Tistory 블로그 바로가기](https://dev-jelee.tistory.com/category/%EC%BD%94%EB%94%A9%20%ED%85%8C%EC%8A%A4%ED%8A%B8)
 
 ---
 
