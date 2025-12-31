@@ -55,7 +55,6 @@ public class BOJ5073 {
       } else {
         output.add("Invalid");
       }
-
     }
 
     // 출력
@@ -63,8 +62,7 @@ public class BOJ5073 {
           .map(text -> {
             System.out.println(text);
             return text;
-          })
-          .forEach(text -> {});
+          });
 
     br.close();
   }
